@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Name": "Focus On Activate",
+        "Description": "Automatically focus an app that requests to be focused (an activate request)",
+        "Icon": "preferences-system-windows",
+        
+        "Authors": [
+            {
+                "Email": "itsprofessional1234@gmail.com",
+                "Name": "iprf"
+            }
+        ],
+        "Id": "focusonactivate",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://github.com/ItsProfessional/kwin-scripts"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
