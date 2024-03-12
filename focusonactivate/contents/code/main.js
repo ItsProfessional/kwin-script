@@ -1,6 +1,7 @@
 function setup(window) {
-    window.demandsAttentionChanged.connect(function(){
-	workspace.activeWindow = window;
+    window.demandsAttentionChanged.connect(() => {
+	if(window.demandsAttention)
+	    workspace.activeWindow = window;
     })
 }
 
